@@ -14,3 +14,7 @@ print('a','   ', 'mysqrt(a)  ', '              ','math.sqrt(a)              ', '
 while b<=9:
     print(b,' ', mysqur(b),' '*(25 -len(str(mysqur(b)))), math.sqrt(b),' '*(25 -len(str(math.sqrt(b)))), (mysqur(b)-math.sqrt(b)))
     b=b+1
+
+
+
+#written by Owhondah Okechukwu Samuel
