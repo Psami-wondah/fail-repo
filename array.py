@@ -15,3 +15,6 @@ r=input('enter the location of the array starting from 0 to 99999\n')
 r=int(r)
 
 searcharray(r)
+
+
+#written by Owhondah Okechukwu Samuel
