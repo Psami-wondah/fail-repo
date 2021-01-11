@@ -9,13 +9,15 @@ def mysqur(a):
         x = y
     return x
 
-b=1.0
-print('a','   ', 'mysqrt(a)  ', '              ','math.sqrt(a)              ', 'diff     ')
-print('-','   ', '---------  ', '              ','------------              ', '----     ')
-while b<=9:
-    print(b,' ', mysqur(b),' '*(25 -len(str(mysqur(b)))), math.sqrt(b),' '*(25 -len(str(math.sqrt(b)))), (mysqur(b)-math.sqrt(b)))
-    b=b+1
+def test_square_root():
+    b=1.0
+    print('a','   ', 'mysqrt(a)  ', '              ','math.sqrt(a)              ', 'diff     ')
+    print('-','   ', '---------  ', '              ','------------              ', '----     ')
+    while b<=9:
+        print(b,' ', mysqur(b),' '*(25 -len(str(mysqur(b)))), math.sqrt(b),' '*(25 -len(str(math.sqrt(b)))), (mysqur(b)-math.sqrt(b)))
+        b=b+1
 
+test_square_root()
 
 
 #written by Owhondah Okechukwu Samuel
