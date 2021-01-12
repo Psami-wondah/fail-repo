@@ -16,3 +16,9 @@ Sortedarray=(sorted(Scatteredarray))
 #the above code sorts the scattered numbers
 print(len(Sortedarray))
 print(Sortedarray[50001])
+
+
+
+
+
+#written by Owhondah Okechukwu Samuel
